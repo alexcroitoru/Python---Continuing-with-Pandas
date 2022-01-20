@@ -1,4 +1,4 @@
-# Unit 5 - Financial Planning
+# Python - Continuing with Pandas
 
 ![Financial Planner](Images/financial-planner.png)
 
@@ -38,8 +38,6 @@ The documentation for these APIs can be found via the following links:
 
 * [AlpacaDOCS](https://alpaca.markets/docs/)
 ---
-
-## Instructions
 
 ### Part 1 - Personal Finance Planner
 
@@ -138,25 +136,3 @@ The CTO of the Credit Union was really impressed with your work on this planner,
 Try adjusting the portfolio to either include more risk (a higher stock than bond ratio) or to have a larger initial investment and rerun the retirement analysis to see what it would take to retire in `5` or `10` years instead of `30`!
 
 ---
-
-### Hints and Considerations
-
-* To allow for quicker work during the Monte Carlo simulation, start out by running `100` simulations for one year of returns, and when you have the code worked out, run the full `500` simulations for `30` years. 
-
-* Remember to add the `.env` files to the `.gitignore` configuration to avoid exposing your API keys in your GitHub repository.
-
-* A `.gitignore` file contains file names and extensions of files that you don't want pushed to your repository. For more information on how a `gitignore` works, you can read the documentation [here](https://docs.github.com/en/github/using-git/ignoring-files).
-
----
-
-### Submission
-
-1. Use the starter Jupyter Notebook for your Personal Finance Planner.
-
-2. Submit your notebook to a new GitHub repository and create a `README.md` file.
-
-3. Submit the link to your GitHub project to Bootcampspot for grading.
-
----
-
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
